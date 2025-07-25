@@ -36,3 +36,5 @@ def reset_hotspot_users(message):
         bot.reply_to(message, f"❌ ত্রুটি: {e}")
 
 bot.polling(non_stop=True)
+# Trigger deploy again
+
